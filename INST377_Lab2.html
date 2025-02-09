@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>Contact me</title>
+    <style>
+        body {
+            background-color: rgb(104,201,210);
+            font-family: Futura;
+            color: white;
+            -webkit-text-stroke: 1px black;
+        }
+
+        .contactUs input {
+            background-color: antiquewhite;
+            color: rgb(24, 24, 24);
+            border-width: 4px;
+            font-family: Futura;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        label {
+            font-size: 22px;
+        }
+
+        .button {
+            background-color: #0080ff;
+            color: white;
+            padding: 10px 20px;
+            font-family: Futura;
+            cursor: pointer;
+            font-size: 22px;
+            margin: 10px;
+            transition: background-color 0.3s;
+            }
+
+        .button:hover {
+            background-color: #004a94; 
+            }
+
+    </style>
+</head>
+
+<body>
+    <h1><center>INST377 - Lab 2 - Contact Me - Illia Polishchuk</center></h1>
+    <form name="contactForm" method="get" action="INST377_Lab2_Page2.html">
+        <hr>
+        <div class="contactUs">
+            <label for="firstName">Name: </label>
+            <input type="text" id="firstName" required>
+            <br>
+            <label for="email">Email: </label>
+            <input type="text" id="email" required>
+            <br>
+        <hr>
+        </div>
+        
+        <button class="button">Submit!</button>
+
+    </form>
+</body>
+
+</html>
